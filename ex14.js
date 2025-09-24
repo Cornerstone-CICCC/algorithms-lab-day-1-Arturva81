@@ -4,10 +4,8 @@ function mergeArrays(arr1, arr2) {
   let merged = [];
   for (let i = 0; i < arr1.length; i++) {
     merged.push(arr1[i]);
+    merged.push(arr2[i]);
     }
-  for (let i = 0; i < arr2.length; i++) {
-      merged.push(arr2[i]);
-  }
   return merged;
 }
 
